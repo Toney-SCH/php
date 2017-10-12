@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>php和mysql第一天：Bob's汽配商店</title>
+</head>
+<body>
+	<form action="processorder.php" method="post">
+	    <table border="0">
+	        <tr><td width="150">Item项目</td><td width="150">Quantity数量</td></tr>
+	        <tr><td>tire轮胎:</td><td><input type="text" name="tireqty" size="3"></td></tr>
+	        <tr><td>Item机油:</td><td><input type="text" name="oilqty" size="3"></td></tr>
+	        <tr><td>Spark火花塞:</td><td><input type="text" name="sparkqty" size="3"></td></tr>
+	        <tr><td colspan="2"><input type="submit" value="submit"/></td></tr>
+	    </table>
+	</form>
+</body>
+</html>
