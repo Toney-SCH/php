@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Bob's汽配商店</h1>
+<h2>订购结果</h2>
+<?php
+
+	$tireqty = $_POST['tireqty'];
+	$oilqty = $_POST['oilqty'];
+    $sparkqty = $_POST['sparkqty'];
+    
+	echo "<p>订购时间：".date('Y-n-s , h:i:s')."</p>";
+	echo "轮胎：".$tireqty."个<br/>";
+	echo "机油:"." $oilqty"." 瓶"."<br/>";
+	echo '火花塞'.$sparkqty.'个<br/>';
+?>
+</body>
+</html>
+
