@@ -1,0 +1,37 @@
+<?php
+
+
+for($i = 0; $i <= 100; $i++){
+	  $b = 2;
+
+	if($i%$b==0){
+     echo $i.'<br/>';
+	 }
+	 else{
+		 echo $i;
+	 }
+}
+
+$ou = array();
+
+$ji = array();
+
+for($i=1;$i<=100;$i++){
+
+if($i%2 == 0){
+
+$ou[] = $i;
+
+}else{
+
+$ji[] = $i;
+
+}
+
+}
+
+print_r($ou);
+
+echo "<hr/>";
+
+print_r($ji);
