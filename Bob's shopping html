@@ -6,13 +6,21 @@
 </head>
 <body>
 	<form action="processorder.php" method="post">
-	    <table border="0">
-	        <tr><td width="150">Item项目</td><td width="150">Quantity数量</td></tr>
-	        <tr><td>tire轮胎:</td><td><input type="text" name="tireqty" size="3"></td></tr>
-	        <tr><td>Item机油:</td><td><input type="text" name="oilqty" size="3"></td></tr>
-	        <tr><td>Spark火花塞:</td><td><input type="text" name="sparkqty" size="3"></td></tr>
-	        <tr><td colspan="2"><input type="submit" value="submit"/></td></tr>
-	    </table>
+    <table border="0">
+        <tr><td width="150">Item项目</td><td width="150">Quantity数量</td></tr>
+        <tr><td>tire轮胎:</td><td><input type="text" name="tireqty" size="3"></td></tr>
+        <tr><td>Item机油:</td><td><input type="text" name="oilqty" size="3"></td></tr>
+        <tr><td>Spark火花塞:</td><td><input type="text" name="sparkqty" size="3"></td></tr>
+        <tr><td colspan="2"><input type="submit" value="submit"/></td></tr>
+        <tr><td>How did you find Bob's:</td><td>
+        <select name="find">
+          <option value="a">I'm a old customer</option>
+          <option value="b">TV advertising</option>
+          <option value="c">Phone direction</option>
+          <option value="d">World of mouth</option>
+        </select>
+        </td></tr>
+    </table>
 	</form>
 </body>
 </html>
